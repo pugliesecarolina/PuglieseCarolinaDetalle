@@ -1830,7 +1830,7 @@ section,
   font-size: 14px;
   padding: 10px 15px;
   box-shadow: none;
-  border-radius: 0;
+  border-radius: 20px;
   color: var(--default-color);
   background-color: color-mix(in srgb, var(--background-color), transparent 50%);
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
@@ -1849,16 +1849,19 @@ section,
 }
 
 .contact .php-email-form button[type=submit] {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  border: 0;
-  padding: 10px 30px 12px 30px;
+  color: #ffffff;
+  background: #000000;
+  border: 3px solid #000000;
+  padding: 10px 30px;
   transition: 0.4s;
   border-radius: 50px;
+  font-weight: 600;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  color: #000000;
+  background: #ffffff;
+  border: 3px solid #000000;
 }
 
 @keyframes animate-loading {
