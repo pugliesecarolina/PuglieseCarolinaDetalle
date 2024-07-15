@@ -1193,6 +1193,15 @@ section,
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  padding:
+}
+
+@media screen and (max-width: 767px) {
+  .trainers-index {
+    background-image: url("../img/hero/hero3.png");
+    background-position: center;
+    padding: 0px 0px 1250px 0px
+  }
 }
 
 .trainers-index .member img {
