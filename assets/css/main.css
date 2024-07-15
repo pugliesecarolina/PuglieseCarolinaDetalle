@@ -1182,9 +1182,17 @@ section,
 --------------------------------------------------------------*/
 .trainers-index .member {
   border-radius: 40px;
+  background-color: #ffffff;
   text-align: center;
   margin-bottom: 20px;
   box-shadow: 0 8px 28px color-mix(in srgb, var(--accent-color), transparent 90%);
+}
+
+.trainers-index {
+  background-image: url("../img/hero/hero3.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .trainers-index .member img {
