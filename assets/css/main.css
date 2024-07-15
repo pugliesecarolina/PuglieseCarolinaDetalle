@@ -1024,7 +1024,7 @@ section,
   margin-bottom: 30px;
   font-size: 32px;
   margin-bottom: 30px;
-  background: color-mix(in srgb, var(--accent-color), transparent 95%);
+  background: #ffffff;
   border-radius: 50px;
   display: flex;
   align-items: center;
